@@ -11,6 +11,33 @@
 			<div id="header">
 				Hit the imgload
 			</div>
+			<div id="tabs">
+				<div class="tabDec">
+					<div class="all tab">
+						All	
+					</div>
+				</div>
+				<div class="tabDec">
+					<div class="search tab">
+						All
+					</div>
+				</div>
+				<div class="tabDec">
+					<div class="search tab">
+						All
+					</div>
+				</div>
+				<div class="tabDec">
+					<div class="search tab">
+						All
+					</div>
+				</div>
+				<div class="tabDec">
+					<div class="search tab">
+						All
+					</div>
+				</div>
+			</div>
 			<div id="frame">
 				<div id="imageContainer">
 				</div>

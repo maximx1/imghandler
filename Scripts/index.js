@@ -9,9 +9,9 @@ $(document).ready(
 					imageDirectories[i] = imageDirectories[i].substring(3);
 					insertionData += "<a href='" + imageDirectories[i] + "'>";
 					insertionData += "<div class='imgDisplay'>";
-					insertionData += "<img class='pic' src='" + imageDirectories[i] + "' /></div></a>";
+					insertionData += "<img onload='this.style.opacity=\"1\";'class='pic' src='" + imageDirectories[i] + "' /></div></a>";
 				}
-				$("#imageContainer").html(insertionData).fadeIn("slow");
+				$("#imageContainer").html(insertionData);
 			}
 		);
 	}
