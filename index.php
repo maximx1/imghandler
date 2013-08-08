@@ -11,6 +11,7 @@
 			<div id="header">
 				Hit the imgload
 			</div>
+			<div id="credentialQuickLoad"></div>
 			<div id="tabs">
 				<div class="tabDec">
 					<div class="all tab">
@@ -39,8 +40,7 @@
 				</div>
 			</div>
 			<div id="frame">
-				<div id="imageContainer">
-				</div>
+				<div id="imageContainer"></div>
 			<div>
 		</div>
 		<script type="text/javascript" src="Scripts/jquery-2.0.3.min.js"></script>

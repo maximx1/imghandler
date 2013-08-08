@@ -22,7 +22,7 @@ body {
 
 #tabs {
 	width: 950px;
-	height: 60px;
+	height: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: .6em;
@@ -31,7 +31,7 @@ body {
 
 .tabDec {
 	width: 170px;
-	height: 60px;
+	height: 40px;
 	background-color: #9DC209;
 	display: block;
 	float: left;
@@ -39,16 +39,20 @@ body {
 	margin-left: 10px;
 	margin-right: 10px;
 	color: #242424;
-	font-weight: bold;
+	font-weight: bolder;
 	text-align: center;
+	line-height: 40px;
 }
-
 
 #header {
 	font-size: 400%;
 	color: #9DC209;
 	margin-left: .3em;
 	margin-top: .2em;
+	margin-bottom: 8px;
+	width: 605px;
+	display: block;
+	float: left;
 }
 
 #frame {
@@ -86,4 +90,19 @@ body {
 	-webkit-transition: opacity 2s;
 	-o-transition: opacity 2s;
 	transition: opacity 2s;
+}
+
+#linkToDownload {
+	background-color: #242424;
+	color: white;
+	border-color: #9DC209;
+	width: 250px;
+	border-radius: 3px;
+	margin-right: 7px;
+}
+
+#credentialQuickLoad {
+	margin-top: 2.5em;
+	float: left;
+	display: block;
 }
