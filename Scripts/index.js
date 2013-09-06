@@ -22,7 +22,6 @@ var loadAndDisplayAllImages = function() {
 var loadCredentialQuickLoad = function() {
 	var insertionData = "<input id='linkToDownload' type='text' name='linkToDownload'>";
 	insertionData += "<button id='downloadLink'>Upload</button>";
-	insertionData += "<script type='text/javascript' src='Scripts/uploadScript.js'></script>";
 	$("#credentialQuickLoad").html(insertionData);
 }
 
@@ -31,5 +30,13 @@ $(document).ready(
 	function() {
 		loadAndDisplayAllImages();
 		loadCredentialQuickLoad();
+
+		$("#credentialQuickLoad").on("click", "#downloadLink", function() {
+			var url = $("#linkToDownload").val();
+			$.post("Controller/addImageURLToQueue.php", {
+				"linkToDownload" : url
+			});
+			$("#linkToDownload").val("");
+		});
 	}
 );
